@@ -30,7 +30,7 @@ type Quote struct {
 
 func main() {
 
-	port := "8081"
+	port := "8080"
 
 	mux := http.NewServeMux()
 	mux.HandleFunc("/cotacao", getQuoteHandler)
